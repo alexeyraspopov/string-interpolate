@@ -4,7 +4,7 @@ module.exports = function interpolation(template, data){
 	}
 
 	return template.replace(/\{([^\}]+)\}/g, function(match, key){
-		tokens = key.trim().split('.');
+		var tokens = key.trim().split('.');
 
 		return tokens.reduce(function(data, key){
 			return data[key];

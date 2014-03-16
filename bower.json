@@ -1,8 +1,8 @@
 {
   "name": "string-interpolate",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Simple string interpolation",
   "license": "MIT",
-  "main": "index.js",
+  "main": "interpolate.js",
   "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
 }

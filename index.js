@@ -1,6 +1,6 @@
-module.exports = function interpolation(template, data){
+module.exports = function interpolate(template, data){
 	if(arguments.length < 2){
-		return interpolation.bind(null, template);
+		return interpolate.bind(null, template);
 	}
 
 	return template.replace(/\{([^\}]+)\}/g, function(match, key){

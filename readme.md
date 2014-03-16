@@ -2,6 +2,10 @@
 
 Simple string interpolation
 
+## Install
+
+	npm install string-interpolate
+
 ## API
 
 	interpolate(template, data);

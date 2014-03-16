@@ -1,13 +1,13 @@
 {
-  "name": "string-interpolate",
-  "version": "0.0.1",
-  "description": "Simple string interpolation",
-  "license": "MIT",
-  "main": "index.js",
-  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
-  "devDependencies": {
-    "expect.js": "^0.3.1",
-    "gulp-mocha": "^0.4.1",
-    "gulp": "^3.5.6"
-  }
+	"name": "string-interpolate",
+	"version": "0.1.0",
+	"description": "Simple string interpolation",
+	"license": "MIT",
+	"main": "index.js",
+	"author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+	"devDependencies": {
+		"expect.js": "^0.3.1",
+		"gulp-mocha": "^0.4.1",
+		"gulp": "^3.5.6"
+	}
 }

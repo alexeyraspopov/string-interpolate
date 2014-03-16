@@ -4,5 +4,10 @@
   "description": "Simple string interpolation",
   "license": "MIT",
   "main": "index.js",
-  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "gulp-mocha": "^0.4.1",
+    "gulp": "^3.5.6"
+  }
 }

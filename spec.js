@@ -25,8 +25,8 @@ describe('string-interpolate', function(){
 	});
 
 	it('should works with arrays', function(){
-		var template = 'items: { 0 }, { 1 }',
-			array = ['first', 'second'];
+		var template = 'items: { list[0] }, { list[1] }',
+			array = { list: ['first', 'second'] };
 
 		expect(interpolate(template, array)).to.be('items: first, second');
 	});

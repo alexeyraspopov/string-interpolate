@@ -6,11 +6,7 @@ module.exports = function interpolate(template, data){
 	}
 
 	return template.replace(/\{([^\}]+)\}/g, function(match, keypath){
-		var tokens = keypath.trim().split('.');
-
-		return tokens.reduce(function(data, key){
-			return data[key];
-		}, data);
+		return new Function('_', 'return _.' + keypath.trim())(data);
 	});
 };
 

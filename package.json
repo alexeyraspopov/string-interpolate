@@ -1,6 +1,6 @@
 {
   "name": "string-interpolate",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple string interpolation",
   "license": "MIT",
   "main": "index.js",

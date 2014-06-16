@@ -1,19 +1,19 @@
 {
   "name": "string-interpolate",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Simple string interpolation",
   "license": "MIT",
   "main": "index.js",
   "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
   "moduleType": [
-	"globals",
-	"node"
+    "globals",
+    "node"
   ],
   "ignore": [
-	"*",
-	"!index.js",
-	"!interpolate.js",
-	"!bower.json",
-	"!readme.md"
+    "*",
+    "!index.js",
+    "!interpolate.js",
+    "!bower.json",
+    "!readme.md"
   ]
 }

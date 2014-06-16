@@ -3,6 +3,17 @@
   "version": "0.3.0",
   "description": "Simple string interpolation",
   "license": "MIT",
-  "main": "interpolate.js",
-  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
+  "main": "index.js",
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "moduleType": [
+	"globals",
+	"node"
+  ],
+  "ignore": [
+	"*",
+	"!index.js",
+	"!interpolate.js",
+	"!bower.json",
+	"!readme.md"
+  ]
 }

@@ -4,9 +4,17 @@ Simple string interpolation
 
 ## Install
 
- * via [npm](https://npmjs.org) `npm install string-interpolate`
- * via [component](http://component.io) `component install alexeyraspopov/string-interpolate`
- * via [bower](http://bower.io) `bower install string-interpolate`
+```bash
+$ npm install string-interpolate
+```
+
+```bash
+$ component install alexeyraspopov/string-interpolate
+```
+
+```bash
+$ bower install string-interpolate
+```
 
 ## API
 
